@@ -1,0 +1,23 @@
+........Easy..........
+
+1.  maximum and minium Element in a array✅
+2.  Reverse the  Array✅
+3.  Print Sub Array✅
+4.  print Max sub Array✅
+5.  Contains Duplicate✅
+6.  Chocolate Distribution Problem
+
+
+...........Medium..........
+
+1.  Next Permutation
+2.  Best time to buy and sell stock
+3.  Repeat and missing Number Array
+4.  Kth - Largest Element in an Array
+5.  Trapping Rain Water
+6.  Product of Array Except Self
+7.  Manimum Product Subarray
+8.  Find minium in Rotated Sorted Array
+9.  3Sum
+10. Container with Most Water
+11. Given sum pair. 
