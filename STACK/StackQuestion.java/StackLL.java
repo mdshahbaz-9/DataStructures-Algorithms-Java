@@ -21,7 +21,7 @@ public class StackLL {
         }
 
         // push
-        public static void push(int data) {
+        public void push(int data) {
             Node newNode = new Node(data);
             if (isEmpty()) {
                 head = newNode;
@@ -66,6 +66,7 @@ public class StackLL {
         }
     }
 
+    @SuppressWarnings("static-access")
     public static void main(String[] args) {
         stack s = new stack();
         s.push(1);
@@ -73,10 +74,10 @@ public class StackLL {
         s.push(3);
         s.pop();
         s.print();
-System.out.println("peek value:"+s.peek());
+        System.out.println("peek value:" + s.peek());
         // while (!s.isEmpty()) {
-        //     System.out.println(s.peek());
-        //     s.pop();
+        // System.out.println(s.peek());
+        // s.pop();
 
         // }
 
