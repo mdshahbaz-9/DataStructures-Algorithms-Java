@@ -1,4 +1,3 @@
-package BST;
 
 public class Searchbst {
 

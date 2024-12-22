@@ -1,5 +1,6 @@
 //Question:- Firdt non repeating letter in Stream of chracters.  "aabccxb"
-import java.util.*;
+import java.util.Queue;
+import java.util.LinkedList;
 public class Question4 {
 public static void printNonRepeating(String str){
         int freq[] = new int[26];

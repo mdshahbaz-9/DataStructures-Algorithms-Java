@@ -1,3 +1,5 @@
+package stacks;
+
 import java.util.Stack;
 public class reverseStack {
     public static void main(String[] args) {
