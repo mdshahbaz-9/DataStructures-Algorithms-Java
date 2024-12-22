@@ -1,7 +1,5 @@
 # DataStructures-Algorithms-Java
 
-# DataStructures-Algorithms-Java
-
 ## Array
 
 ### Easy
