@@ -1,4 +1,4 @@
 
 nano .gitignore
 *.class
-/tempCodeRunnerFile.java
+tempCodeRunnerFile*.java
