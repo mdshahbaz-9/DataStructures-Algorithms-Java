@@ -1,3 +1,5 @@
+package BST;
+
 public class BuildBst {
     static class Node {
         int data;

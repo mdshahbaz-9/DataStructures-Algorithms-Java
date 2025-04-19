@@ -1,7 +1,8 @@
 
 //Question:- Interleave 2 halves of a Queue (Even length) 1 2 3 4 5 6 7 8 9 10
 //                                                        1 6 2 7 3 8 4 9 5 10
-import java.util.*;
+import java.util.Queue;
+import java.util.LinkedList;
 
 public class Question5 {
     Queue<Integer> q;
