@@ -24,6 +24,17 @@ public class b {
         System.out.println("Enter brackets:");
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
-        System.out.println(isBalanced(str));
+        System.out.println(isBalanced(str));  
+            
+        // Test cases
+        System.out.println(isBalanced("()")); // true
+        System.out.println(isBalanced("()[]{}")); // true
+        System.out.println(isBalanced("(]")); // false
+        System.out.println(isBalanced("([)]")); // false
+        System.out.println(isBalanced("{[]}")); // true
+        System.out.println(isBalanced("((()))")); // true
+        System.out.println(isBalanced("((())")); // false
+        System.out.println(isBalanced("((()))}")); // false
+
     }
 }
