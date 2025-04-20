@@ -8,7 +8,7 @@ public class balanceBrackets {
             char ch = str.charAt(i);
 
             // rule -> 1
-            if (ch == '(') {
+            if (ch == '(' ) {
                 st.push(ch);
             } else {
                 if (st.size() == 0) return false;
