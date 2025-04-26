@@ -1,4 +1,6 @@
 
+// Description: Stack implementation using linked list in Java
+
 import java.util.*;
 public class ac {
     static class Node{
