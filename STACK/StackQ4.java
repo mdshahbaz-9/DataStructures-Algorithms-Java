@@ -1,3 +1,7 @@
+//Question: Given an array of stock prices, find the span of stock prices for each day. The span of stock 
+//price on a given day is defined as the maximum number of consecutive days before the given day where the
+// price was less than or equal to the price on that day.
+
 import java.util.*;
 
 public class StackQ4 {

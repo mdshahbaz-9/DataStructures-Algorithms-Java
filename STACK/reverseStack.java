@@ -1,3 +1,4 @@
+// This is a Java program to check if the brackets in a string are balanced or not.
 import java.util.Stack;
 public class reverseStack {
     public static void main(String[] args) {

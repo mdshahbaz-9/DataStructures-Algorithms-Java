@@ -1,3 +1,4 @@
+//Question: Write a program to check if the brackets in a string are balanced or not.
 import java.util.*;
 public class StackCWQ1 {
         public static boolean isBalanced(String str){
@@ -11,6 +12,7 @@ public class StackCWQ1 {
              else { 
                 if (st.size() == 0)
                 return false;
+                
                 if(st.peek() == '(')
                 st.pop();
              }
@@ -29,3 +31,6 @@ public class StackCWQ1 {
 
     }
 }
+//Input: ((()))
+//Output: true
+//Input: ((())}

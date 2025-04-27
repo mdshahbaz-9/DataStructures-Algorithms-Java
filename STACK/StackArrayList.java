@@ -1,3 +1,4 @@
+// This is a Java program to implement a stack using ArrayList.
 import java.util.*;
 
 public class StackArrayList {

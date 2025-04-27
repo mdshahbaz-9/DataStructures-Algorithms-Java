@@ -1,34 +1,32 @@
-// question : reverse the first K elements of a queue.
+import java.util.Stack;
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.Stack;
 
-public class reverse_1st_Kelement {
-    public static void reverseFirstK(Queue<Integer> q, int k) {
-        if (q.isEmpty() || k > q.size() || k <= 0) {
+public class reverse {
+    public static  Queue<Integer> reverseFirstK(Queue<Integer> q , int k){
+        if(q.isEmpty() || k> q.size() || k<=0){
             System.out.println("Invalid input");
-            return;
+            return q;
         }
-
-        Stack<Integer> stack = new Stack<>();
-
+        Stack<Integer> st = new Stack<>();
         // Step 1: Push the first K elements into the stack
-        for (int i = 0; i < k; i++) {
-            stack.push(q.remove());
-        }
+        for(int i = 0 ; i < k ; i++){
+            st.push(q.remove());
 
+        }
         // Step 2: Add the stack elements back to the queue
-        while (!stack.isEmpty()) {
-            q.add(stack.pop());
-        }
+        while(!st.isEmpty()){
+            q.add(st.pop());
 
+        }
         // Step 3: Move the remaining elements (size - K) to the back of the queue
-        int remainingSize = q.size() - k;
-        for (int i = 0; i < remainingSize; i++) {
+         int remainingSize = q.size() - k;
+       for(int i = 0 ; i < remainingSize ; i++){
             q.add(q.remove());
         }
-    }
+        return q;
 
+    }
     public static void main(String[] args) {
         Queue<Integer> q = new LinkedList<>();
         q.add(1);
@@ -43,4 +41,5 @@ public class reverse_1st_Kelement {
         reverseFirstK(q, k);
         System.out.println("Queue after reversing first " + k + " elements: " + q);
     }
+    
 }

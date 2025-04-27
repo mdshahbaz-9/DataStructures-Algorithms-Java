@@ -1,3 +1,4 @@
+// question: Implement a stack using linked list in Java. 
 public class stackLLImp {
     // Node class to represent each element in the stack
     static class Node {

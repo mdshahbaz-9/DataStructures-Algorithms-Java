@@ -1,3 +1,4 @@
+// question: Write a program to interleave the first half of a queue with the second half.
 import java.util.Queue;
 import java.util.LinkedList;
 public class Interleave{

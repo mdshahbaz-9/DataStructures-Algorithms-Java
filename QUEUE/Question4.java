@@ -22,7 +22,7 @@ public static void printNonRepeating(String str){
         System.out.println();
 }
 public static void main(String[] args) {
-    String str = "aabccxb";
+    String str = "qqwe";
 
     printNonRepeating(str);
 }
