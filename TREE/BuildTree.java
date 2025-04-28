@@ -40,7 +40,7 @@ public class BuildTree {
             Preorder(root.right);
         }
 
-        // 2:- Inorder Traversals   LRR(left , root , right)
+        // 2:- Inorder Traversals   LRR(left , Node , right)     --------->    {left , data , right}
         public static void Inorder(Node root){
             // base case
             if(root == null){
@@ -51,7 +51,7 @@ public class BuildTree {
             Inorder(root.right);
         }
 
-        // post order Traversal  LRR(left subtree, right , root)
+        // post order Traversal  LRR(left subtree, right , root) 
         public static void Postorder(Node root){
             if(root == null){
                 return;
@@ -61,7 +61,7 @@ public class BuildTree {
             System.out.print(root.data+" ");
         }
 
-        //Level order traversal
+        //Level order traversal                  ------
         public static void Levelorder(Node root){
             if(root == null){
                 return;

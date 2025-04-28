@@ -5,7 +5,7 @@ import java.util.Queue;
 import java.util.LinkedList;
 
 public class Question5 {
-    Queue<Integer> q;
+    // Queue<Integer> q;
     public static void Interleave(Queue<Integer> q) {
         Queue<Integer> firstHalf = new LinkedList<>();
         int size = q.size();
