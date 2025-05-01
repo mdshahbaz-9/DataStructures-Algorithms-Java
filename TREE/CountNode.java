@@ -1,4 +1,5 @@
-import java.util.*;
+// question: count the number of nodes in a binary tree and sum of all nodes in a binary tree.
+// import java.util.*;
 //count node
 public class CountNode {
     static class Node {
@@ -31,7 +32,6 @@ public class CountNode {
             return treeSum;
 
         }
-          
 
         public static void main(String[] args) {
             /*
@@ -49,7 +49,7 @@ public class CountNode {
             root.right.left = new Node(6);
             root.right.right = new Node(7);
             System.out.println("Numbers of Node = "+count(root));
-            
+
             System.out.println(sum(root));
         }
 
